@@ -1,23 +1,77 @@
-class animalia1():
+class animalia1(): #kingdom animalia
+    def __init__(self,name):
+        self.animalia = name
+        self.kingdom = "they are eukaryotic organisms, they do not have a cell wall, they're multicellular organisms that don't possess chlorophyll, and they often reproduce sexually"
+
+    def animal_properties(self):
+        print("The name of this taxonomy rank is:", self.animalia)
+        print("The characteristics of this rank are:", self.kingdom)
+
+class chlordata2(animalia1): #phylum chlordata
+    def __init__(self, name):
+        super().__init__(name)
+        self.name = name
+        self.phylum = "they have a notocord, a dorsal hollow nerve cord, pharyngeal slits, and a post-anal tail"
+    
+    def animal_properties(self):
+        animalia_instance.animal_properties()
+        print("The name of this taxonomy rank is:", self.name)
+        print("The characteristics of this rank are:", self.phylum)
+    
+class reptilia3(): #class reptilia
+    def __init__(self):
+        d
+
+class squamata4(): #order squamata
     pass
 
-class chlordata2():
+class pythonidae5(): #family pythonidae
     pass
 
-class reptalia3():
+class python6(): #genus python
     pass
 
-class squamata4():
+class morelia6(): #genus morelia
     pass
 
-class pythonidae5():
+class Python_regius7():
+    print("            ,╓▄▄▄▄▄@W╥╥╖ \n ╓@▓▓▓▓██████████▓▓██▄,\n  @▓█████▓▓█▓█▓██▓██████▌▓▓╖ \n ╓▓▓▓▓██▓██▓███▓▓▓██▓█████▓▓█▌, \n ███████████▓▓██▓▓█████████▓▓█▓███▄▄▄ \n ]▓█▓▓▓▓█▓█████▓█▓▓█████▓██╟▓▓██▓▓▓▓▓████▄, \n ]▓▓████████████▒▀╢▓▓███▓██████▓█▌ ▀▓▓▓████▄ \n ▓█▓████████▓▓██,  ╙███████████▓█U   ╙█▓▓▓███▄ \n ,▄▄██▓▓▓▓▓▓@▓█████████▓╢▓▓╣▓█▄,▓▓████▌▓╣███▓█    ▓▓▓▓█▓██▓ \n g▓╢▓███████████▓▓▓███▓▓▓▓██▄▓▓▓███████▓█▌╣▓▓██▓▓▄╖ ╟▓▓▓████╣▓ \n █▓▓▓▓██████▓▓▓███▓▓▓▓▓████▓▓▓███████████▓██▒▓╣▓███████▓███████ \n ▓█▓▓▓████▓▓▓▓██▓█████▓▓▓▓████▓█████████▀███████▓▌╢╢▓▓████▓▓▓▓█▌\n  ▓██╫╣███▓██▓▓▓████████▓▓▓▓██████▓▓▓▓▓▓▓▓▓╢▓██▓▓███▄▓▓▓Ñ███╣▓▓▀ \n ╚███╫▓▓▓███▓▓▓█▓███▓███▓▓▓████▌█▓██▓▓▓▓█▓▓╬▓▓║▓▓▓█████████▓▓╜ \n ╙▓▓████▌╢╢▓▀██▓████████▓▓██▓█▓█▓▓▓▓▓▓██████▄▓█████████▀╜` \n ,╓╖╥▓█▓▓███▓▓▓▓▓▒█████▓██▓▓▓▓███▓▓▓▓▓▓▓▓▓█▓▓▓██▀▓▓╣╫▓▄ \n ,▄████▓▓██╣╣▓█▓▓▓████▓╣╢█████████████▀▓▓▓▓▓▓▓▓█▓▓██▓▓▓▓▓▓▓▓▌ \n ▓▓█▓████████▓╣██▀█▓▓▓██▓╣▓████▓╣╣▓██▓█  ╙▓▓██████████████████▌\n ▄██████▀▓▌▀`▀█▌╣╫█╗ ▓▓███▒▓█▓█▓▓▓▓▓▓███L    ▀█▓▓▓▓▓█▓▓▓██╢╢▓▓╫█ \n ╓▓██▀█▓▀▀▀     ╟█╢▓██▄▄▓██╢▓▒██▓█╣▓▓▓▓████▌     ╙▓██▓▓▓█▓▓██╣▓▓╣██[ \n ████▀╙          ▀█▓╣╣▒▓╣╣╣╢▓█▓█▓█████████▓▌      ▐███▓█████▌▓▓▓▒██▌ \n ▀███▓▓▓▓▓▓▀▓▓████▀███████▓, ,▄▄▓▓▓██▓▓███▒▓▓▓▒██Γ \n ```    ▐▓███▌▓▓▓▓▓▓█████▓▓▓▓██▓▓▓██████████▌\n ▓▓▓▓▓█▄▒▓▓▄████████████████████▀▓▓▓` \n └▓▓█▓▓▓███████▓▓▓▓▓▓▓▓╣███▓███▓▓▓▓`\n ╢▓▓█▓▓▓██████╢▓▓╣▒╢▄███████▓▓▓╜ \n '▀▓▓▓▓▓▓████▀▓▓▓▓▓▓▓▓▓▓▓▓▓▓╜ \n ╙▓▓▓▓▓▓▓▓▓▓▓▓▓██▓▓▓▓▓╜` \n '╙╙▓▓▓▓▓▓▓▓▓▀╨╜")
+
+class Python_molurus7():
+    print(" `▀███████▓█▓▓███▓▓▓▓████▓▓██████▓▒╙▒▒▒╣▓ \n `▀███████▓█▓█▓▓▓▓▓███▓▓███▓▓▓▒▓╣▓▓▓▓▄ \n ▀████████▓▓▓▓▓▓▓▓▓▓▓╫▓▓████▓▓▓▓▓▓▓ \n ▀█████████▓▓▓▓████▓▓▓████▓▓▓▓▓▓█ \n ▀█████████▓███████▓▓▓▓██▓▓▓▓▓█▌\n ▀█▓██████▓▓███████▓▓▓▓▓▓▓╝▓▓█▌ \n ,█████▓█▓▓▓▓▓▓▓▓▓▓▓▓▓▄,               ▀██▓▓████▓▓▓▓█████▓▓▓▓▓▒▒▒▒▀▌ \n ▓████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓@æ╖,      ▀█▓██▓█████▓▓▓▓▓▓▓██▓▓▓H╣▓▓▌ \n ▐██████▓▓████▓█▓▓▓▓▓▓▓▓▓▓█▓▓▓▓▓▓▓▓▓▓▓▓▄,  ╙███▓█████▓▓▓▓▓████▓▓▓▓▓▓▓█ \n ]████████████████▓▓▓▓╣▀▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓█╖  ▀▓▓██▓▓▓▓▓▓▓▓▓████▓▓▒▓▓▓█ \n ╙▓████████▓▓▓███████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓███▄ ╙██▓▓█▓▓▓██▓▓████▓▓▓▓▓▓█ \n ▀▓████████████▓▓████▓▓▓▓▓▓╣▓▓▓▓▓▓█▓▓▓▓▓▓██,▓█▓▓▓▓███▓▓▓█▓█▓▒▒╢▒╜▓█ \n ▀▓▓▓▓██████▓▓▒█████▓▓▓▓▓▓▓▓▓▓████▓██▓█▓██▓▓▓▓▓▓▓▓▓▓▓███▓▓█▓▓▓▓▓ \n ╙▀▓▓▓████▓▓▓╢██████▓▓▓▓▓▓▓▓████████▓██████▓▓▓▓█████▓▓█▓▓████ \n ▀███▓▓▓▓▓████████▓▓▓▓▓▓▓▓▓▓█▓██████████▓▓▓▓▓█▓▓▓█▓█████ \n ▀▀████▓▀█████████▓██▓▓█▓▓███▓▓▓▓▓▓▓▓▓▓▓▓▓▓█████████▓ \n ▀███▓▓██████████████████████▓████▓█▓███▓████████ \n ╙▓▓▓▓▓██▓███▓█████████████████████████████████ \n ╙▀▓▓▓▓▓████▓▓█▓█▓██████████████████████████▓ \n `╙▀▓▓█████▓▓██▓████████████████████████'")
+
+class Python_sebae7():
     pass
 
-class python6():
+class Python_bivittatus7():
     pass
 
-class morelia6():
+class Python_natalensis7():
     pass
 
-class species7():
+class Python_curtus7():
     pass
+
+class Python_breitensteini7():
+    pass
+
+class Python_anchietae7():
+    pass
+
+class Python_brongersmai7():
+    pass
+
+class Python_kyaiktiyo7():
+    pass
+
+class Morelia_spilota7():
+    pass
+
+class Morelia_viridis7():
+    pass
+
+animalia_instance = animalia1("Kingdom snakes")
+chlordada_instance = chlordata2("phylum snakes")
+
+animalia_instance.animal_properties()
+chlordada_instance.animal_properties()
