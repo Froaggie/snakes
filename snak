@@ -131,7 +131,7 @@ class Python_bivittatus7(python6): #species burmese python
 class Python_natalensis7(python6): #species southern african rock python
     def __init__(self, name):
         super().__init__(name)
-        self.species = "southern rock"
+        self.species = "Southern African rock pythons are a least concern species which means there is no threat to their life, they are native to Southern Africa in the savanna and woodlands, the largest Southern python recorded was 19ft long but they grow to an average of 9ft 2in to 13ft 1in with the females being significantly larger than the males, it has similar colorings to a Central African rock python but has a dark patch that more resembles a stripe than a patch, they are carnivorous snakes and eat birds and small mammals"
 
     def animal_properties(self):
         super().animal_properties()
@@ -142,7 +142,7 @@ class Python_natalensis7(python6): #species southern african rock python
 class Python_curtus7(python6): #species sumatran short-tailed python
     def __init__(self, name):
         super().__init__(name)
-        self.species = "Sumatran"
+        self.species = "Sumatran short-tailed pythons are a least concern species, they are native to Sumatra and lives in wet places such as rainforests and swamps, they grow to the average length of 4.9-5.9ft with a heavy build and a short tail relative to their overall length, their color pattern consists of a beige, tan, or grayish-brown ground color overlaid with blotches that are brick- to blood-red in color, they are carnivorous snakes and feed on a variety of mammals and birds"
 
     def animal_properties(self):
         super().animal_properties()
@@ -153,7 +153,7 @@ class Python_curtus7(python6): #species sumatran short-tailed python
 class Python_breitensteini7(python6): #species borneo python
     def __init__(self, name):
         super().__init__(name)
-        self.species = "Borneo"
+        self.species = "Borneo pythons are a least concern species, they are an endemic species to the island of Borneo and are also found in Indonesia and Malaysia, they live in areas that have lower elevations on poorly drained flood plains or on the edges of swampy areas, they have an average length of about 4 ft but they have been reported to reach 7 ft with the females being larger than the males, their color pattern is usually tan with brown blotching, which varies greatly, hough no instances of albinism have been reported, a few individuals display a significantly lighter color, appearing more yellow than brown, they are carnivorous snakes and feed on a variety of mammals and birds"
 
     def animal_properties(self):
         super().animal_properties()
@@ -164,7 +164,7 @@ class Python_breitensteini7(python6): #species borneo python
 class Python_brongersmai7(python6): #species blood python
     def __init__(self, name):
         super().__init__(name)
-        self.species = "blood"
+        self.species = "Blood pythons are a least concern species, they are native to Southeast Asian tropical swamps and marshes, the male snakes are an average of 36-60 in and the female snakes are an average of 48-72 in, their color pattern consists of rich, bright red to orange to a duller rusty red ground color, although populations with yellow and brown are known; this is overlaid with yellow and tan blotches and stripes that run the length of the body, as well as tan and black spots that extend up the flanks, they are carnivorous snakes and feed on a variety of mammals and birds"
 
     def animal_properties(self):
         super().animal_properties()
@@ -175,7 +175,7 @@ class Python_brongersmai7(python6): #species blood python
 class Morelia_kinghorni7(morelia6): #species australian scrub python
     def __init__(self, name):
         super().__init__(name)
-        self.species = "Aussie scrub"
+        self.species = "Australian scrub pythons are a least concern species, they are native to forests in Northern Australia and are not to be confused with the Amethystine python, they have an average size of 8.8ft - 9.5ft with the males typically being larger than the females, they have an ornate back pattern consisting of browns and tans, with many different natural variations. Its belly is usually white, sometimes with some yellows, they are carnivorous snakes and eat small mammals and birds"
 
     def animal_properties(self):
         super().animal_properties()
@@ -186,7 +186,7 @@ class Morelia_kinghorni7(morelia6): #species australian scrub python
 class Morelia_spilota7(morelia6): #species carpet python
     def __init__(self, name):
         super().__init__(name)
-        self.species = "carpet"
+        self.species = "Carpet pythons are a least concern species, they are native to Australia, new Guinea, and the Northern solomon islands, they grow to an average size of 6.6-13.1 ft with the females often being larger than the males, their color varies ranging from olive to black with white or cream and gold markings, the patterning may be roughly diamond-shaped or have intricate markings made up of light and dark bands on a background of gray or a version of brown, they are carnivorous and eat small mammals, birds, and lizards"
 
     def animal_properties(self):
         super().animal_properties()
@@ -197,7 +197,7 @@ class Morelia_spilota7(morelia6): #species carpet python
 class Morelia_viridis7(morelia6): #species green tree python
     def __init__(self, name):
         super().__init__(name)
-        self.species = "green tree"
+        self.species = "Green tree pythons are a least concern species, they are native to New Guinea, some islands in Indonesia, and the Cape York Peninsula in Australia, their max length is 6.6ft with the females often being slightly larger and heavier than the males, these snakes are most well known for their vibrant green skin with small white spots, the juvenile snakes are a bright yellow with black spots, they are carnivorous snakes that eat small mammals and sometimes reptiles"
 
     def animal_properties(self):
         super().animal_properties()
@@ -208,7 +208,7 @@ class Morelia_viridis7(morelia6): #species green tree python
 class Malayopython_timoriensis7(malayopython6): #species timor python
     def __init__(self, name):
         super().__init__(name)
-        self.species = "timor"
+        self.species = "Timor pythons are a vulnerable species, they are a dwarf species native to Southeast Asia, they are fairly long, over 7 feet long but are relatively thin pythons, they are green-brown with a dark brown pattern from their head to mid-body, the lower half of their body is completely brown, and their skin can have an iridescent appearance, they are carnivorous and eat birds and small mammals"
 
     def animal_properties(self):
         super().animal_properties()
@@ -216,11 +216,87 @@ class Malayopython_timoriensis7(malayopython6): #species timor python
         print("The characteristics of this species are:", self.species)
         print("                                 ,▄▄&▓█▓▓▓▓▓▓▓▓▓▓▓@ \n ,▄▄██▓███▓█▓▓▓▓▓▓▒▓▓▓▓▓▓▌ \n ,▄▄█████▓▓▓▒▓█▓▓▓▓▓▓▓▓▓▓▓▓▓▓█▓ \n ,▄██████▀█▓█▓▓██▓██▓▓▓████▓▓█▓▓▓▓██▓▓█▓▓▓██▄▄▄▄, \n ,█▓███▓▓███████████▓▓█▓█▓██████▓▓██▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓█▓▓▄, \n ,██▓▓████████████████▓██▓▓█████▓████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▄, \n ,██▓██▓▓▓▓████████▓▓▓▓█▀▓▓██████████▓▓▓▄,    ''▀▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓╕ \n ▓███▓████████████▓▓▓██▓▓▓▓██████████▓█▓▓▓▓▓█▓▄       ╙▓▓▓▓▓▓▓▓▓▓▓╗ \n ,███▓████▓▓███████▌▓█▓▓▓▓▓▓`███▓███╨╜▒▒▓▓▓▓▓▓█▓█▓▓▄       ▓▓╢▓▓▓▓▓▓▓╕ \n ▓▓███▓▓▓▓█████████▓▓▓▓▓▓▓▓,▄█▓▓████L   '╢▓▓▓▓▓▓▓██▓█▄     ]╢▓╣▓▓▓▓▓╣╣ \n █▓██▓▓█████████████▓▓▓▓▓▓▓███▓▓████       ╙╜╩╜╬▓▓▓▓█▓▓   ,▓╬▓▓▓▓▓▓▓▓╣ \n ▐▓▓████▓█▓▓██████████████████████▀              `╙╜╜'   ╔▓╣▓╣▓▓▓▓╣▓╣╢ \n ▓█▓███▓████▓██████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▄▄,           ╓╬╣╣▓▓▓▓▓▓▓▓▓╣` \n ▐███████▓█▓▓▓█████████▄ ' `` '▀▓▓▓▓▓▓▓▓▓▓▓▓▓▓,      ,▓╢▓╣▓▓▓▓▓▓▓▓╣╢┘ \n ▀▓█▓▓▓███▓███▓█████████▄        `╙╝▓▓▓▓▓▓▓▓▓    ╓╬▓╣▓▓▓▓▓▓▓▓▓▓╢▓ \n ╚▓████▓██▓▓▓▓▓▓█████▓█▓██▄▄,,     ,╟▓▓▓▓▓▓▓▌ ╥▓▓▓▓▓▓▓╣▓╢▓▓▓╫╣╝ \n ╙▓▓▓█▓▓██▓▓▓▓██▓▓▓█████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓╣▓▓▓▓╢▓╣▓▓▓▓▓╣▓ \n ▓▓▓▓█▓▓█████▓▓▓▓▓▓▓▓▓▓▓▓▓▀▓▓▓▓▓▓▓▓▓▓╢▓▓▓╢▓▓▓▓▓╢▓▓▓▓▓╢╣╣╜ \n ╙▓▓█▓▓██▓▓▓██████▓▓█▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓██▓╢╢╣╬▓▓▓▓▓▓▓╣╢╝ \n ╙▓▓▓███▓▓████▓▓▓▓▓▓▓▓▓██▓▓▓▓▓▓▓▓▓▓▓███▓▓▓▓▓▓▓╣▓▓╝")
 
-animalia_instance = animalia1("Kingdom snakes")
-chlordada_instance = chlordata2("Phylum snakes")
-reptilia_instance = reptilia3("Class snakes")
-squamata_instance = squamata4("Order snakes")
-pythonidae_instance = pythonidae5("Family snakes")
+animalia_instance = animalia1("animalia")
+chlordada_instance = chlordata2("chlordata")
+reptilia_instance = reptilia3("reptilia")
+squamata_instance = squamata4("squamata")
+pythonidae_instance = pythonidae5("Family pythonidae")
+python_instance = python6("Genus python")
+morelia_instance = morelia6("Genus morelia")
+malayopython_instance = malayopython6("Genus malayopython")
+python_regius_instance = Python_regius7("Species ball python")
+Python_molurus_instance = Python_molurus7("Species indian python")
+Python_sebae_instance = Python_sebae7("Species central african rock python")
+Python_bivittatus_instance = Python_bivittatus7("Species burmese python")
+Python_natalensis_instance = Python_natalensis7("Species south african rock python")
+Python_curtus_instance = Python_curtus7("Species sumatran short-tailed python")
+Python_breitensteini_instance = Python_breitensteini7("Species borneo python")
+Python_brongersmai_instance = Python_brongersmai7("Species blood python")
+Morelia_kinghorni_instance = Morelia_kinghorni7("Species australian scrub python")
+Morelia_spilota_instance = Morelia_spilota7("Species carpet python")
+Morelia_viridis_instance = Morelia_viridis7("Species green tree python")
+Malayopython_timoriensis_instance = Malayopython_timoriensis7("Species timor python")
 
-animalia_instance.animal_properties()
-chlordada_instance.animal_properties()
+def ball():
+    python_regius_instance.animal_properties()
+    print("\n" * 2)
+
+def indian():
+    Python_molurus_instance.animal_properties()
+    print("\n" *2)
+
+def centralrock():
+    Python_sebae_instance.animal_properties()
+    print("\n" *2)
+
+def burmese():
+    Python_bivittatus_instance.animal_properties()
+    print("\n" *2)
+
+def southrock():
+    Python_natalensis_instance.animal_properties()
+    print("\n" *2)
+
+def sumatran():
+    Python_curtus_instance()
+    print("\n" *2)
+
+def borneo():
+    Python_breitensteini_instance.animal_properties()
+    print("\n" *2)
+
+def blood():
+    Python_brongersmai_instance.animal_properties()
+    print("\n" *2)
+
+def aussie():
+    Morelia_kinghorni_instance.animal_properties()
+    print("\n" *2)
+
+def carpet():
+    Morelia_spilota_instance.animal_properties()
+    print("\n" *2)
+
+def greentree():
+    Morelia_viridis_instance.animal_properties()
+    print("\n" *2)
+
+def timor():
+    Malayopython_timoriensis_instance.animal_properties()
+    print("\n" *2)
+
+def mainmenu():
+    print("======== WELCOME TO PYTHON PICKER ========")
+    print("Please pick the python you would like to know about!")
+    print(" 1. Ball python \n 2. Indian python \n 3. Central african rock python \n 4. Burmese python \n 5. Southern african rock python \n 6. Sumatran short-tailed python \n 7. Borneo python \n 8. Blood python \n 9. Australian scrub python \n 10. Carpet python \n 11. Green tree python \n 12. Timor python")
+    picked_snake = input()
+    snakes = {'1': ball, '2': indian, '3': centralrock, '4': burmese, '5': southrock, '6': sumatran, '7': borneo, '8': blood, '9':aussie, '10': carpet, '11': greentree, '12':timor}
+    if picked_snake in snakes:
+        snakes[picked_snake]()
+        mainmenu()
+    else:
+        print("Sorry! that snake is not in our index, pick a different one!")
+        mainmenu()
+
+
+mainmenu()
