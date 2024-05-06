@@ -216,26 +216,26 @@ class Malayopython_timoriensis7(malayopython6): #species timor python
         print("The characteristics of this species are:", self.species)
         print("                                 ,▄▄&▓█▓▓▓▓▓▓▓▓▓▓▓@ \n ,▄▄██▓███▓█▓▓▓▓▓▓▒▓▓▓▓▓▓▌ \n ,▄▄█████▓▓▓▒▓█▓▓▓▓▓▓▓▓▓▓▓▓▓▓█▓ \n ,▄██████▀█▓█▓▓██▓██▓▓▓████▓▓█▓▓▓▓██▓▓█▓▓▓██▄▄▄▄, \n ,█▓███▓▓███████████▓▓█▓█▓██████▓▓██▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓█▓▓▄, \n ,██▓▓████████████████▓██▓▓█████▓████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▄, \n ,██▓██▓▓▓▓████████▓▓▓▓█▀▓▓██████████▓▓▓▄,    ''▀▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓╕ \n ▓███▓████████████▓▓▓██▓▓▓▓██████████▓█▓▓▓▓▓█▓▄       ╙▓▓▓▓▓▓▓▓▓▓▓╗ \n ,███▓████▓▓███████▌▓█▓▓▓▓▓▓`███▓███╨╜▒▒▓▓▓▓▓▓█▓█▓▓▄       ▓▓╢▓▓▓▓▓▓▓╕ \n ▓▓███▓▓▓▓█████████▓▓▓▓▓▓▓▓,▄█▓▓████L   '╢▓▓▓▓▓▓▓██▓█▄     ]╢▓╣▓▓▓▓▓╣╣ \n █▓██▓▓█████████████▓▓▓▓▓▓▓███▓▓████       ╙╜╩╜╬▓▓▓▓█▓▓   ,▓╬▓▓▓▓▓▓▓▓╣ \n ▐▓▓████▓█▓▓██████████████████████▀              `╙╜╜'   ╔▓╣▓╣▓▓▓▓╣▓╣╢ \n ▓█▓███▓████▓██████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▄▄,           ╓╬╣╣▓▓▓▓▓▓▓▓▓╣` \n ▐███████▓█▓▓▓█████████▄ ' `` '▀▓▓▓▓▓▓▓▓▓▓▓▓▓▓,      ,▓╢▓╣▓▓▓▓▓▓▓▓╣╢┘ \n ▀▓█▓▓▓███▓███▓█████████▄        `╙╝▓▓▓▓▓▓▓▓▓    ╓╬▓╣▓▓▓▓▓▓▓▓▓▓╢▓ \n ╚▓████▓██▓▓▓▓▓▓█████▓█▓██▄▄,,     ,╟▓▓▓▓▓▓▓▌ ╥▓▓▓▓▓▓▓╣▓╢▓▓▓╫╣╝ \n ╙▓▓▓█▓▓██▓▓▓▓██▓▓▓█████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓╣▓▓▓▓╢▓╣▓▓▓▓▓╣▓ \n ▓▓▓▓█▓▓█████▓▓▓▓▓▓▓▓▓▓▓▓▓▀▓▓▓▓▓▓▓▓▓▓╢▓▓▓╢▓▓▓▓▓╢▓▓▓▓▓╢╣╣╜ \n ╙▓▓█▓▓██▓▓▓██████▓▓█▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓██▓╢╢╣╬▓▓▓▓▓▓▓╣╢╝ \n ╙▓▓▓███▓▓████▓▓▓▓▓▓▓▓▓██▓▓▓▓▓▓▓▓▓▓▓███▓▓▓▓▓▓▓╣▓▓╝")
 
-animalia_instance = animalia1("animalia")
-chlordada_instance = chlordata2("chlordata")
-reptilia_instance = reptilia3("reptilia")
-squamata_instance = squamata4("squamata")
-pythonidae_instance = pythonidae5("Family pythonidae")
-python_instance = python6("Genus python")
-morelia_instance = morelia6("Genus morelia")
-malayopython_instance = malayopython6("Genus malayopython")
-python_regius_instance = Python_regius7("Species ball python")
-Python_molurus_instance = Python_molurus7("Species indian python")
-Python_sebae_instance = Python_sebae7("Species central african rock python")
-Python_bivittatus_instance = Python_bivittatus7("Species burmese python")
-Python_natalensis_instance = Python_natalensis7("Species south african rock python")
-Python_curtus_instance = Python_curtus7("Species sumatran short-tailed python")
-Python_breitensteini_instance = Python_breitensteini7("Species borneo python")
-Python_brongersmai_instance = Python_brongersmai7("Species blood python")
-Morelia_kinghorni_instance = Morelia_kinghorni7("Species australian scrub python")
-Morelia_spilota_instance = Morelia_spilota7("Species carpet python")
-Morelia_viridis_instance = Morelia_viridis7("Species green tree python")
-Malayopython_timoriensis_instance = Malayopython_timoriensis7("Species timor python")
+animalia_instance = animalia1("kingdom: animalia")
+chlordada_instance = chlordata2("Phylum: chlordata")
+reptilia_instance = reptilia3("Class: reptilia")
+squamata_instance = squamata4("Order: squamata")
+pythonidae_instance = pythonidae5("Family: pythonidae")
+python_instance = python6("Genus: python")
+morelia_instance = morelia6("Genus: morelia")
+malayopython_instance = malayopython6("Genus: malayopython")
+python_regius_instance = Python_regius7("ball python")
+Python_molurus_instance = Python_molurus7("indian python")
+Python_sebae_instance = Python_sebae7("central african rock python")
+Python_bivittatus_instance = Python_bivittatus7("burmese python")
+Python_natalensis_instance = Python_natalensis7("south african rock python")
+Python_curtus_instance = Python_curtus7("sumatran short-tailed python")
+Python_breitensteini_instance = Python_breitensteini7("borneo python")
+Python_brongersmai_instance = Python_brongersmai7("blood python")
+Morelia_kinghorni_instance = Morelia_kinghorni7("australian scrub python")
+Morelia_spilota_instance = Morelia_spilota7("Scarpet python")
+Morelia_viridis_instance = Morelia_viridis7("green tree python")
+Malayopython_timoriensis_instance = Malayopython_timoriensis7("timor python")
 
 def ball():
     python_regius_instance.animal_properties()
@@ -285,7 +285,7 @@ def timor():
     Malayopython_timoriensis_instance.animal_properties()
     print("\n" *2)
 
-def mainmenu():
+def mainmenu(): #The mainmenu
     print("======== WELCOME TO PYTHON PICKER ========")
     print("Please pick the python you would like to know about!")
     print(" 1. Ball python \n 2. Indian python \n 3. Central african rock python \n 4. Burmese python \n 5. Southern african rock python \n 6. Sumatran short-tailed python \n 7. Borneo python \n 8. Blood python \n 9. Australian scrub python \n 10. Carpet python \n 11. Green tree python \n 12. Timor python")
@@ -299,4 +299,4 @@ def mainmenu():
         mainmenu()
 
 
-mainmenu()
+mainmenu() #run the code
