@@ -300,3 +300,4 @@ def mainmenu(): #The mainmenu
 
 
 mainmenu() #run the code
+mainmenu() #run the code
